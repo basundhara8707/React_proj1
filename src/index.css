@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+background-color: rgb(237, 240, 226);
+height: auto;
+width: 400px;
+margin: 20px;
+border: 4px solid rgb(148, 148, 145);
+border-radius: 4rem;
+padding: 20px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+
+}
+.card:hover{
+    background-color:aliceblue;
+}
+.card .top{
+    display: flex;
+    justify-content: flex-end;
+}
+.middle img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid grey;
+    border-radius: 50%;
+
+}
+.tag h5{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 70px;
+    margin-left: 10px;
+    
+    
+    border: 1px solid rgb(163, 179, 179);
+
+    border-radius: 2rem;
+    padding-left:10px;
+    background-color:rgb(163, 179, 179);
+
+}
+.bottom button{
+    border-top: 2px;
+    border-radius: 2rem;
+    font-size: large;
+    height: auto;
+    width: auto;
+   
+    
+
+}
+button:hover{
+    background-color: rgb(163, 179, 179);
+;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+.middle{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+.middle p{
+    margin-top: 10px;
+}
+#user{
+    color: rgb(10, 195, 127);
+}
